@@ -158,7 +158,7 @@ export default function ContactSection() {
         </div>
         <div className="w-[45%] h-full lg:flex sm300:hidden flex-col items-end justify-center   ">
           <img
-            src="/images/contactus.jpg"
+            src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/contactus.jpg?alt=media&token=ceaf38ce-36dc-4be0-8f73-95d725b7b4e6&_gl=1*5dmxka*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODkzNTk1Ny4zLjEuMTY5ODkzNTk1OC41OS4wLjA."
             alt=""
             className="w-[100%] h-[78%]"
           />

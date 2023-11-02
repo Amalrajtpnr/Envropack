@@ -27,7 +27,7 @@ export default function ThirdSection() {
           </h1>
         </div>
         <img src="/images/plantmb.jpg" alt="" className="lg:w-[50%] sm300:w-[100%] h-[100%] lg:hidden " />
-        <img src="/images/plant.jpg" alt="" className="lg:w-[50%] sm300:w-[100%] h-[100%] lg:flex sm300:hidden sm500:hidden" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/plant.jpg?alt=media&token=d4eb77d1-c907-4ff0-9909-24ce32f485ae&_gl=1*ck7tku*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODkzNTk1Ny4zLjEuMTY5ODkzNjI0My41My4wLjA." alt="" className="lg:w-[50%] sm300:w-[100%] h-[100%] lg:flex sm300:hidden sm500:hidden" />
 
       </div>
     </div>

@@ -6,7 +6,7 @@ export default function NavBar() {
   const [popUp, setPopUp] = useState(false);
 
   return (
-    <div className="w-full lg:h-[20%] sm500:h-[20%] sm300:h-[30%] bg-transparent flex  flex-row items-center lg:justify-between sm300:justify-start  lg:absolute sm500:absolute  border border-black">
+    <div className="w-full lg:h-[20%] sm500:h-[20%] sm300:h-[30%] bg-transparent flex  flex-row items-center lg:justify-between sm300:justify-start  lg:absolute sm500:absolute  ">
       <div className="lg:w-[40%]  sm300:w-[90%] h-full flex flex-row items-center lg:justify-start   lg:ml-[90px] sm300:ml-3 ">
         <img
           src="/images/logo1.svg"
@@ -25,7 +25,7 @@ export default function NavBar() {
           size={30}
         />
       </div>
-      <div className="w-[30%] sm500:w-[45%] h-full lg:flex sm300:hidden   sm500:flex  flex-row items-center justify-center ">
+      <div className="lg:w-[30%] sm500:w-[45%] h-full lg:flex sm300:hidden   sm500:flex  flex-row items-center justify-center ">
         <div className="w-full h-[50%] flex flex-row items-center justify-around rounded-l-2xl bg-transparent   backdrop-blur-[100px]   ">
           <a
             className="text-white  sm500:text-[15px] sm300:text-[16px] lg:text-[16px] font-semibold cursor-pointer"
