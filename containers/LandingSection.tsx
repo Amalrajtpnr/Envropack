@@ -27,7 +27,7 @@ export default function LandingSection() {
           </a>
           <div className="w-[80%] h-[20%] flex flex-row items-start justify-between ">
             <div className="w-[25%] h-full flex flex-col items-start justify-center ">
-              <h1 className="lg:text-[38px] sm300:text-[18px]  sm500:text-[45px] text-left font-bold ">10K+</h1>
+              <h1 className="lg:text-[38px] sm300:text-[18px]  sm500:text-[45px] text-left font-bold ">10+</h1>
               <h1 className="lg:text-[20px] sm300:text-[13px] sm500:text-[30px] text-left  font-light ">Countries</h1>
             </div>
             <div className="w-[25%] h-full flex flex-col items-start justify-center ">
