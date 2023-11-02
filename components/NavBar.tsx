@@ -6,8 +6,8 @@ export default function NavBar() {
   const [popUp, setPopUp] = useState(false);
 
   return (
-    <div className="w-full lg:h-[20%] sm300:h-[30%] bg-transparent flex  flex-row items-center lg:justify-between sm300:justify-start  lg:absolute lg:p-0  sm500:p-8 sm500:box-border ">
-      <div className="lg:w-[40%] sm300:w-[90%] h-full flex flex-row items-center lg:justify-start   lg:ml-[90px] sm300:ml-3 ">
+    <div className="w-full lg:h-[20%] sm500:h-[20%] sm300:h-[30%] bg-transparent flex  flex-row items-center lg:justify-between sm300:justify-start  lg:absolute sm500:absolute  border border-black">
+      <div className="lg:w-[40%]  sm300:w-[90%] h-full flex flex-row items-center lg:justify-start   lg:ml-[90px] sm300:ml-3 ">
         <img
           src="/images/logo1.svg"
           alt=""
@@ -17,7 +17,7 @@ export default function NavBar() {
           ENVROPACK
         </h1>
       </div>
-      <div className="w-[20%] h-full lg:hidden  sm300:flex flex-col items-center justify-center ">
+      <div className="w-[20%] h-full lg:hidden  sm300:flex sm500:hidden flex-col items-center justify-center ">
         <FaBars
           onClick={() => {
             setPopUp(!popUp);
@@ -25,28 +25,28 @@ export default function NavBar() {
           size={30}
         />
       </div>
-      <div className="w-[30%] h-full lg:flex sm300:hidden sm500:hidden  flex-row items-center justify-center ">
+      <div className="w-[30%] sm500:w-[45%] h-full lg:flex sm300:hidden   sm500:flex  flex-row items-center justify-center ">
         <div className="w-full h-[50%] flex flex-row items-center justify-around rounded-l-2xl bg-transparent   backdrop-blur-[100px]   ">
           <a
-            className="text-white sm500:text-[30px] sm300:text-[16px] lg:text-[16px] font-semibold cursor-pointer"
+            className="text-white  sm500:text-[15px] sm300:text-[16px] lg:text-[16px] font-semibold cursor-pointer"
             href="#home"
           >
             Home
           </a>
           <a
-            className="text-white text-[16px] font-semibold cursor-pointer"
+            className="text-white sm500:text-[15px] sm300:text-[16px] font-semibold cursor-pointer"
             href="#about"
           >
             About Us
           </a>
           <a
-            className="text-white text-[16px] font-semibold cursor-pointer"
+            className="text-white sm500:text-[15px] sm300:text-[16px] font-semibold cursor-pointer"
             href="#services"
           >
             Services
           </a>
           <a
-            className="text-white text-[16px] font-semibold cursor-pointer"
+            className="text-white sm500:text-[15px] sm300:text-[16px] font-semibold cursor-pointer"
             href="#footer"
           >
             Contact Us{" "}

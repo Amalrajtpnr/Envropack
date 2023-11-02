@@ -26,13 +26,13 @@ export default function AboutSection() {
       </div>
       <div className="w-full h-[50%] flex flex-col items-center justify-center sm300:mt-8 lg:mt-0  ">
         <div className="w-[88%] h-full flex lg:flex-row sm300:flex-col items-start justify-between ">
-          <div className="lg:w-[45%] sm300:w-[100%] lg:h-[100%] sm300:h-[10%] flex flex-col lg:items-start sm300:items-center justify-between ">
+          <div className="lg:w-[35%] sm300:w-[100%] lg:h-[100%] sm300:h-[10%] flex flex-col lg:items-start sm300:items-center justify-between  ">
             <h1 className="lg:text-[30px] sm300:text-[20px] sm500:text-[40px] text-[#004E2B] text-left font-bold">
               What we’re trying to solve
             </h1>
-            <img src="/images/cup.jpg" alt="" className="w-[70%] h-[80%] lg:flex sm300:hidden" />
+            <img src="/images/cup.jpg" alt="" className="lg:w-[100%] h-[80%] lg:flex sm300:hidden" />
           </div>{" "}
-          <div className="lg:w-[55%] lg:h-full sm300:h-full flex flex-col items-start justify-center sm500:mt-6 sm300:mt-0 lg:mt-0">
+          <div className="lg:w-[60%] lg:h-full sm300:h-full flex flex-col items-start justify-center sm500:mt-6 sm300:mt-0 lg:mt-0">
             <h1 className="lg:text-[20px] sm300:text-[15px] sm500:text-[25px] lg:text-left sm300:text-center sm300:leading-relaxed font-light ">
               Our mission is to become the number one provider complete
               Disposable ,food packaging solutions in quality, hygienic and safe

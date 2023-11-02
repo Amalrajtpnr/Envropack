@@ -8,12 +8,12 @@ export default function InclinedImage() {
     <img
       src="/images/I1.jpg"
       alt=""
-      className={` absolute lg:top-[10%] sm300:top-[3%] sm500:top-0  lg:w-[65%] sm300:w-[65%] sm500:w-[70%] sm500:h-[70%] lg:h-[65%] sm300:h-[50%] lg:right-0 sm300:right-[10%] rounded-2xl z-[100]`}
+      className={` absolute lg:top-[10%] sm300:top-[8%] sm500:top-0  lg:w-[65%] sm300:w-[65%] sm500:w-[70%] sm500:h-[70%] lg:h-[65%] sm300:h-[50%] lg:right-0 sm300:right-[5%] rounded-2xl z-[100]`}
     />
     <img
       src="/images/delivery.jpg"
       alt=""
-      className={` w-[65%] lg:h-[65%] sm300:h-[50%]  absolute lg:bottom-[6%] sm500:w-[70%] sm500:h-[70%] sm500:bottom-0  sm300:bottom-[14%] lg:right-[20%] sm300:right-[28%] rounded-2xl   `}
+      className={` w-[65%] lg:h-[65%] sm300:h-[50%]  absolute lg:bottom-[6%] sm500:w-[70%] sm500:h-[70%] sm500:bottom-0  sm300:bottom-[8%] lg:right-[20%] sm300:right-[27%] rounded-2xl   `}
     />
   </div>
   )
