@@ -12,7 +12,9 @@ module.exports = {
     extend: {
       fontFamily: {
         Encode: ["Encode Sans Expanded"],
+        inter: ["Inter"]
       },
+     
       colors: {
         blur: "rgba(255,255,255,0.1)",
       },
