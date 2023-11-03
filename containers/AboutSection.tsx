@@ -7,7 +7,7 @@ export default function AboutSection() {
       id="about"
       className="w-full lg:h-[100vh] sm300:h-[150vh] sm500:h-[100vh] sm550:h-[30vh] flex flex-col items-center justify-start sm300:p-0 lg:p-0 sm500:p-6 sm500:box-border"
     >
-      <div className="w-full lg:h-[50%] sm300:h-[50%] sm500:h-full  flex lg:flex-row sm300:flex-col sm500:flex-row items-center sm300:justify-start lg:justify-center ">
+      <div className="lg:w-full sm500:w-[93%] sm300:w-full lg:h-[50%] sm300:h-[50%] sm500:h-full  flex lg:flex-row sm300:flex-col sm500:flex-row items-center sm300:justify-start lg:justify-center ">
         <div className="lg:w-[52%] sm300:w-[95%] lg:h-full  sm500:h-full sm300:h-[50%] flex flex-col lg:items-start sm300:items-center sm500:items-start justify-start   sm300:mt-4 lg:mt-0">
           <h1 className="lg:text-[30px] sm300:text-[20px] sm500:text-[25px] lg:text-left sm500:text-left  sm300:text-center  text-[#004E2B] font-bold">
             What is ENVROPACK
@@ -24,7 +24,7 @@ export default function AboutSection() {
         </div>
      <InclinedImage/>
       </div>
-      <div className="w-full h-[50%] flex flex-col   items-center justify-center sm300:mt-8 sm500:mt-4 lg:mt-0  ">
+      <div className="lg:w-full sm500:w-[93%] sm300:w-full h-[50%] flex flex-col   items-center justify-center sm300:mt-8 sm500:mt-4 lg:mt-0  ">
         <div className="lg:w-[88%] sm300:w-[88%] sm500:w-full h-full flex lg:flex-row  sm300:flex-col sm500:flex-row items-start justify-between ">
           <div className="lg:w-[35%] sm300:w-[100%]  sm500:w-[50%] lg:h-[100%] sm500:h-full sm300:h-[10%] flex flex-col lg:items-start sm500:items-start sm300:items-center justify-between  ">
             <h1 className="lg:text-[30px] sm300:text-[20px] sm500:text-[25px] text-[#004E2B] text-left font-bold">

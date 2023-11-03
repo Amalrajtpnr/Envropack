@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Service from "../components/Service";
 import emailjs from "@emailjs/browser";
 import { ImSpinner4 } from "react-icons/im";
+import { emailRegex } from "../constants/constants";
 
 export default function ContactSection() {
   const [loading, setloading] = useState(false);
@@ -17,6 +18,16 @@ export default function ContactSection() {
     email: "",
     message: "",
   });
+
+  // Function to show a success alert that disappears after 3 seconds
+// const showSuccessAlert=(message:any)=> {
+//   alert(message);
+//   setTimeout(() => {
+//     window.alert = () => {}; // Clear the alert
+//   }, 3000); // 3000 milliseconds (3 seconds)
+// }
+
+
 
   const form = () => {
     // emailjs.sendForm("service_6lan7xp", "template_fcou23s", "#myForm").then(
@@ -44,9 +55,12 @@ export default function ContactSection() {
           (response) => {
             console.log("SUCCESS!", response.status, response.text);
             setloading(false);
+            alert("Email sent successfully!");
           },
           (err) => {
             console.log("FAILED...", err);
+            alert("Email sent successfully!");
+
             setloading(false);
           }
         );
@@ -56,6 +70,9 @@ export default function ContactSection() {
           message: "message is required",
           email: "Email is required",
         });
+        alert("Email failed!");
+
+
       } else if (email.trim().length === 0) {
         setError({
           email: "Email is required",
@@ -71,7 +88,7 @@ export default function ContactSection() {
   };
 
   return (
-    <div className="w-full lg:h-[120vh] sm300:h-[165vh] sm500:h-[35vh]   flex flex-col items-center lg:justify-between sm500:justify-around sm300:justify-between lg:mt-10 sm300:mt-10 sm500:mt-0">
+    <div className="w-full lg:h-[120vh] sm300:h-[165vh] sm500:h-[40vh]   flex flex-col items-center lg:justify-between sm500:justify-around sm300:justify-between lg:mt-10 sm300:mt-10 sm500:mt-10">
       <div
         id="services"
         className="w-[88%] lg:h-[45%] sm500:h-[55%] flex flex-col lg:items-start sm300:items-center sm500:items-start justify-between "
@@ -83,9 +100,9 @@ export default function ContactSection() {
       </div>
       <div
         id="footer"
-        className="lg:w-[100%] sm300:w-full sm500:w-[83%] lg:h-[45%] sm300:h-[25%] sm500:h-[60%]   bg-white flex flex-row items-start justify-center  sm300:mb-5 lg:mb-0  "
+        className="lg:w-[100%]  sm300:w-full sm500:w-[88%] lg:h-[45%] sm300:h-[25%] sm500:h-[60%]   bg-white flex flex-row items-start justify-center sm500:mb-10   sm300:mb-10 lg:mb-0  "
       >
-        <div className="lg:w-[45%]  sm500:w-[55%] sm300:w-[90%] lg:h-full sm300:h-full sm500:h-[80%]  flex flex-col lg:items-start sm300:items-center sm500:items-start justify-start ">
+        <div className="lg:w-[45%]   sm500:w-[55%] sm300:w-[90%] lg:h-full sm300:h-full sm500:h-[80%]  flex flex-col lg:items-start sm300:items-center sm500:items-start justify-start ">
           <h1 className="lg:text-[30px] sm300:text-[20px] sm500:text-[25px] text-[#004E2B] text-left font-bold">
             Contact US
           </h1>
@@ -107,6 +124,8 @@ export default function ContactSection() {
                 setEmail(e.target.value);
                 if (e.target.value.trim().length == 0) {
                   setError({ ...error, email: "Email is required" });
+                } else if (!emailRegex.test(e.target.value)) {
+                  setError({ ...error, email: "Invalid email" });
                 } else {
                   setError({ ...error, email: "" });
                 }
@@ -156,7 +175,7 @@ export default function ContactSection() {
             )}
           </form>
         </div>
-        <div className="lg:w-[45%] sm500:w-[45%] h-full  lg:flex sm500:flex sm300:hidden flex-col lg:items-end sm500:items-center justify-center   ">
+        <div className="lg:w-[44%]  sm500:w-[45%] h-full  lg:flex sm500:flex sm300:hidden flex-col lg:items-end sm500:items-center justify-center   ">
           <img
             src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/contactus.jpg?alt=media&token=ceaf38ce-36dc-4be0-8f73-95d725b7b4e6&_gl=1*5dmxka*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODkzNTk1Ny4zLjEuMTY5ODkzNTk1OC41OS4wLjA."
             alt=""

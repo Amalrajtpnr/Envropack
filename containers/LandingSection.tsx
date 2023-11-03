@@ -4,7 +4,7 @@ import NavBar from "../components/NavBar";
 
 export default function LandingSection() {
   return (
-    <div id="home" className="lg:w-full sm500:w-full sm300:w-full lg:h-[100vh] sm300:h-[110vh] sm500:h-[40vh]  flex lg:flex-row sm500:flex-row sm300:flex-col lg:items-start sm500:items-start sm300:items-center lg:justify-end sm500:justify-end sm300:justify-between lg:relative sm500:relative sm300:relative ">
+    <div id="home" className="lg:w-full sm500:w-full sm300:w-full lg:h-[100vh] sm300:h-[110vh] sm500:h-[30vh]  flex lg:flex-row sm500:flex-row sm300:flex-col lg:items-start sm500:items-start sm300:items-center lg:justify-end sm500:justify-end sm300:justify-between lg:relative sm500:relative sm300:relative ">
       <NavBar/>
       <div className="lg:w-[58%] sm300:w-full sm500:w-[55%] lg:h-full sm500:h-full sm300:min-h-[50%] flex flex-col items-center justify-center  ">
         <div className="lg:w-[85%] sm500:w-[90%] sm300:w-[85%]  lg:h-full sm300:h-full flex flex-col lg:items-start sm300:items-center sm500:items-start lg:justify-end sm300:justify-center sm500:justify-end   ">
@@ -40,7 +40,7 @@ export default function LandingSection() {
           </div>
         </div>
       </div>
-      <div className="lg:w-[40%] sm500:w-[45%] sm300:w-[100%] lg:h-full sm500:h-full sm300:h-[50%] flex flex-col items-center justify-start ">
+      <div className="lg:w-[40%] sm500:w-[43%] sm300:w-[100%] lg:h-full sm500:h-full sm300:h-[50%] flex flex-col items-center justify-start ">
         <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/shipping.jpg?alt=media&token=898be929-f7be-4081-94db-9df8730e976d&_gl=1*1msly5c*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODkzNTk1Ny4zLjEuMTY5ODkzNjA1Ni41NC4wLjA." className="w-full h-full lg:flex sm300:hidden sm500:flex" alt="" />
         <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/shippingmb.jpg?alt=media&token=4d129f45-ddef-4899-b70a-7dcb66de8a95&_gl=1*au6qdc*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODkzNTk1Ny4zLjEuMTY5ODkzNjMyMS41OS4wLjA." className="w-full h-full sm300:flex lg:hidden sm500:hidden" alt="" />
 
