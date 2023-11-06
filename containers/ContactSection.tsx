@@ -38,7 +38,7 @@ export default function ContactSection() {
     //     console.log("FAILED...", err);
     //   }
     // );
-    if (message.trim().length !== 0 && email.trim().length !== 0) {
+    if (message.trim().length !== 0 && email.trim().length !== 0 && !Object.values(error).some((error) => error !== "")) {
       setloading(true);
       const templateParams = {
         email: email,
@@ -65,7 +65,7 @@ export default function ContactSection() {
           }
         );
     } else {
-      if (message.trim().length === 0 && email.trim().length == 0) {
+      if (message.trim().length === 0 && email.trim().length == 0 ) {
         setError({
           message: "message is required",
           email: "Email is required",
@@ -78,17 +78,22 @@ export default function ContactSection() {
           email: "Email is required",
           message: "",
         });
+        alert("Email failed!");
+
       } else {
         setError({
           email: "Message is required",
           message: "",
+
         });
+        alert("Email failed!");
+
       }
     }
   };
 
   return (
-    <div className="w-full lg:h-[120vh] sm300:h-[165vh] sm500:h-[40vh]   flex flex-col items-center lg:justify-between sm500:justify-around sm300:justify-between lg:mt-10 sm300:mt-10 sm500:mt-10">
+    <div className="w-full lg:h-[120vh] sm300:h-[170vh] sm500:h-[40vh]   flex flex-col items-center lg:justify-between sm500:justify-around sm300:justify-between lg:mt-10 sm300:mt-10 sm500:mt-10 font-Encode">
       <div
         id="services"
         className="w-[88%] lg:h-[45%] sm500:h-[55%] flex flex-col lg:items-start sm300:items-center sm500:items-start justify-between "
@@ -100,13 +105,13 @@ export default function ContactSection() {
       </div>
       <div
         id="footer"
-        className="lg:w-[100%]  sm300:w-full sm500:w-[88%] lg:h-[45%] sm300:h-[25%] sm500:h-[60%]   bg-white flex flex-row items-start justify-center sm500:mb-10   sm300:mb-10 lg:mb-0  "
+        className="lg:w-[100%]  sm300:w-full sm500:w-[88%] lg:h-[45%] sm300:h-[25%] sm500:h-[60%]   bg-white flex flex-row items-start justify-center sm500:mb-10   sm300:mb-10 lg:mb-0 lg:mt-0 sm500:mt-0 sm300:mt-6  "
       >
         <div className="lg:w-[45%]   sm500:w-[55%] sm300:w-[90%] lg:h-full sm300:h-full sm500:h-[80%]  flex flex-col lg:items-start sm300:items-center sm500:items-start justify-start ">
           <h1 className="lg:text-[30px] sm300:text-[20px] sm500:text-[25px] text-[#004E2B] text-left font-bold">
             Contact US
           </h1>
-          <h1 className="lg:text-[20px] sm300:text-[15px] sm500:text-[20px] text-[#004E2B]  text-left font-normal lg:mt-2 sm300:mt-0">
+          <h1 className="lg:text-[20px] sm300:text-[13px] sm500:text-[20px] text-[#004E2B]  text-left font-normal lg:mt-2 sm300:mt-0">
             Tell us how we can help you
           </h1>
           <form

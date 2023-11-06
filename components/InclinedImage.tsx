@@ -13,7 +13,7 @@ export default function InclinedImage() {
     <img
       src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/delivery.jpg?alt=media&token=2a0ca635-2ff9-4978-96af-ac213c2f635e&_gl=1*10z5yk4*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODkzNTk1Ny4zLjEuMTY5ODkzNjQ0NC42LjAuMA.."
       alt=""
-      className={` lg:w-[65%] lg:h-[65%] sm300:h-[50%]  absolute lg:bottom-[6%] sm500:w-[60%] sm500:h-[50%] sm500:bottom-0  sm300:bottom-[8%] lg:right-[20%] sm500:left-[5%] sm300:left-0 lg:left-[8%] sm300:right-[27%] rounded-2xl   `}
+      className={` lg:w-[65%] lg:h-[65%] sm300:h-[50%]  absolute lg:bottom-[6%] sm500:w-[60%] sm500:h-[50%] sm500:bottom-0  sm300:bottom-[10%] lg:right-[20%] sm500:left-[5%] sm300:left-0 lg:left-[8%] sm300:right-[27%] rounded-2xl   `}
     />
   </div>
   )

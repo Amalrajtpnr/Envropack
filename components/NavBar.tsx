@@ -6,14 +6,14 @@ export default function NavBar() {
   const [popUp, setPopUp] = useState(false);
 
   return (
-    <div className="w-full lg:h-[20%] sm500:h-[20%] sm300:h-[30%] bg-transparent flex  flex-row items-center lg:justify-between sm300:justify-start  lg:absolute sm500:absolute  ">
-      <div className="lg:w-[40%]  sm300:w-[90%] h-full flex flex-row items-center lg:justify-start   lg:ml-[90px] sm300:ml-3 ">
+    <div className="w-full lg:h-[20%] sm500:h-[20%] sm300:h-[30%] bg-transparent flex  flex-row items-center lg:justify-between sm300:justify-start  lg:absolute sm500:absolute font-Encode  ">
+      <div className="lg:w-[40%]  sm300:w-[90%] h-full flex flex-row items-center lg:justify-start   lg:ml-[90px] sm500:ml-8 sm300:ml-3 ">
         <img
           src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/logo1.svg?alt=media&token=a5ec18b6-e581-4026-b253-8a3b1b7c813a&_gl=1*1tq8pep*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5OTAyODY5Ni41LjEuMTY5OTAyODcyNC4zMi4wLjA."
           alt=""
           className="lg:w-[12%] sm300:w-[10%] sm500:w-[12%] h-full"
         />
-        <h1 className="lg:text-[40px] sm300:text-[25px] sm500:text-[45px] font-bold text-[#004E2B]  lg:ml-4 sm300:ml-2 sm500:ml-6">
+        <h1 className="lg:text-[35px] sm300:text-[20px] sm500:text-[40px] font-bold text-[#004E2B]  lg:ml-4 sm300:ml-2 sm500:ml-6">
           ENVROPACK
         </h1>
       </div>
@@ -28,25 +28,25 @@ export default function NavBar() {
       <div className="lg:w-[30%] sm500:w-[45%] h-full lg:flex sm300:hidden   sm500:flex  flex-row items-center justify-center ">
         <div className="w-full h-[50%] flex flex-row items-center justify-around rounded-l-2xl bg-transparent   backdrop-blur-[100px]   ">
           <a
-            className="text-white  sm500:text-[15px] sm300:text-[16px] lg:text-[16px] font-semibold cursor-pointer"
+            className="text-white  sm500:text-[13px] sm300:text-[16px] lg:text-[14px] font-semibold cursor-pointer"
             href="#home"
           >
             Home
           </a>
           <a
-            className="text-white sm500:text-[15px] sm300:text-[16px] font-semibold cursor-pointer"
+            className="text-white sm500:text-[13px] sm300:text-[16px]  lg:text-[14px] font-semibold cursor-pointer"
             href="#about"
           >
             About Us
           </a>
           <a
-            className="text-white sm500:text-[15px] sm300:text-[16px] font-semibold cursor-pointer"
+            className="text-white sm500:text-[13px] sm300:text-[16px] lg:text-[14px] font-semibold cursor-pointer"
             href="#services"
           >
             Services
           </a>
           <a
-            className="text-white sm500:text-[15px] sm300:text-[16px] font-semibold cursor-pointer"
+            className="text-white sm500:text-[13px] sm300:text-[16px] lg:text-[14px] font-semibold cursor-pointer"
             href="#footer"
           >
             Contact Us{" "}
@@ -66,7 +66,7 @@ export default function NavBar() {
           </div>{" "}
           <div className="w-full h-[80%] flex flex-col items-center justify-around ">
             <a
-              className="text-black text-[16px] font-semibold cursor-pointer"
+              className="text-black text-[14px] font-semibold cursor-pointer"
               onClick={() => {
                 setPopUp(false);
               }}
@@ -75,7 +75,7 @@ export default function NavBar() {
               Home
             </a>
             <a
-              className="text-black text-[16px] font-semibold cursor-pointer"
+              className="text-black text-[14px] font-semibold cursor-pointer"
               onClick={() => {
                 setPopUp(false);
               }}
@@ -84,7 +84,7 @@ export default function NavBar() {
               About Us
             </a>
             <a
-              className="text-black text-[16px] font-semibold cursor-pointer"
+              className="text-black text-[14px] font-semibold cursor-pointer"
               onClick={() => {
                 setPopUp(false);
               }}
@@ -93,7 +93,7 @@ export default function NavBar() {
               Services
             </a>
             <a
-              className="text-black text-[16px] font-semibold cursor-pointer"
+              className="text-black text-[14px] font-semibold cursor-pointer"
               onClick={() => {
                 setPopUp(false);
               }}

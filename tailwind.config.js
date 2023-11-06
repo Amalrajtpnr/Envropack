@@ -11,8 +11,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Encode: ["Encode Sans Expanded"],
-        inter: ["Inter"]
+        Encode: ['Encode Sans Expanded', "sans-serif"],
+        inter:['Inter', "sans-serif"]
+       
       },
      
       colors: {
