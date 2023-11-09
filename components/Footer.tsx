@@ -14,7 +14,7 @@ export default function Footer() {
             alt=""
             className="lg:w-[10%] sm500:w-[20%] sm300:w-[30%] sm300:h-[50%] lg:h-[100%]"
           />
-          <h1 className="lg:text-[35px] sm300:text-[25px] font-bold text-[#004E2B] lg:mt-1 sm300:mt-2 sm500:mt-2">
+          <h1 className="lg:text-[35px] sm300:text-[22px] font-bold text-[#004E2B] lg:mt-1 sm300:mt-2 sm500:mt-2">
             ENVROPACK
           </h1>
         </div>
