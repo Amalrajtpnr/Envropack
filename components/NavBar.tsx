@@ -11,7 +11,7 @@ export default function NavBar() {
         <img
           src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/logo1.svg?alt=media&token=a5ec18b6-e581-4026-b253-8a3b1b7c813a&_gl=1*1tq8pep*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5OTAyODY5Ni41LjEuMTY5OTAyODcyNC4zMi4wLjA."
           alt=""
-          className="lg:w-[12%] sm300:w-[10%] sm500:w-[12%] h-full"
+          className="lg:w-[12%] sm300:w-[10%] sm500:w-[12%]  h-full"
         />
         <h1 className="lg:text-[35px] sm300:text-[20px] sm500:text-[40px] font-bold text-[#004E2B]  lg:ml-4 sm300:ml-2 sm500:ml-6">
           ENVROPACK
