@@ -62,7 +62,7 @@ export default function Home() {
       materials, biodegradability, and reduced waste to minimize
       environmental impact. They promote eco-conscious consumer choices
       and support a cleaner, greener planet."
-        image="/favicon/favivon.ico"
+        image="/logo1.svg"
       />
       {loading ? (
         <div className="fixed top-0 z-[100] w-full h-full bg-black flex flex-col items-center justify-center ">
