@@ -39,7 +39,7 @@ export default function Home() {
         height="200"
         viewBox="0 0 1145 1161"
         fill="none"
-        className="animate-pulse scale-[0.5] lg:scale-[1]"
+        className="animate-pulse scale-[0.5] lg:scale-[1.3]"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
@@ -65,7 +65,7 @@ export default function Home() {
         image="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/logo1.svg?alt=media&token=a5ec18b6-e581-4026-b253-8a3b1b7c813a&_gl=1*1tq8pep*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5OTAyODY5Ni41LjEuMTY5OTAyODcyNC4zMi4wLjA."
       />
       {loading ? (
-        <div className="fixed top-0 z-[100] w-full h-full bg-black flex flex-col items-center justify-center ">
+        <div className="fixed top-0 z-[100] w-full h-full bg-white flex flex-col items-center justify-center ">
           {/* <img
             src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/logo1.svg?alt=media&token=a5ec18b6-e581-4026-b253-8a3b1b7c813a&_gl=1*1tq8pep*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5OTAyODY5Ni41LjEuMTY5OTAyODcyNC4zMi4wLjA."
             alt=""

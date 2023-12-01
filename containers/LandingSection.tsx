@@ -6,13 +6,13 @@ export default function LandingSection() {
   return (
     <div id="home" className="lg:w-full sm500:w-full sm300:w-full lg:h-[100vh] sm300:h-[110vh] sm500:h-[35vh]    flex lg:flex-row sm500:flex-row sm300:flex-col lg:items-start sm500:items-start sm300:items-center lg:justify-end sm500:justify-end sm300:justify-between lg:relative sm500:relative sm300:relative ">
       <NavBar/>
-      <div className="lg:w-[58%] sm300:w-full sm500:w-[55%] lg:h-full sm500:h-full sm300:min-h-[50%] flex flex-col items-center justify-center  ">
-        <div className="lg:w-[85%] sm500:w-[90%] sm300:w-[85%]  lg:h-full sm300:h-full flex flex-col lg:items-start sm300:items-center sm500:items-start lg:justify-end sm300:justify-center sm500:justify-end   ">
-          <h1 className="lg:text-[40px] sm300:text-[18px] sm500:text-[25px]  lg:text-left sm300:text-center sm500:text-left font-bold  font-Encode">
+      <div className="lg:w-[60%] sm300:w-full sm500:w-[55%] lg:h-full sm500:h-full sm300:min-h-[50%] flex flex-col items-center justify-center  ">
+        <div className="lg:w-[80%] sm500:w-[90%] sm300:w-[85%]  lg:h-full sm300:h-full flex flex-col lg:items-start sm300:items-center sm500:items-start lg:justify-end sm300:justify-center sm500:justify-end   ">
+          <h1 className="lg:text-[45px] sm300:text-[18px] sm500:text-[25px]  lg:text-left sm300:text-center sm500:text-left font-bold font-Encode lg:tracking-wider">
             We take immense pride in being your trusted partner for all your
             packaging needs
           </h1>
-          <h1 className="lg:text-[20px] sm300:text-[13px] sm500:text-[18px]  lg:text-left sm300:text-center sm500:text-left  font-light  lg:mt-4 sm300:mt-2 sm500:mt-4 font-Encode">
+          <h1 className="lg:text-[20px] sm300:text-[13px] sm500:text-[18px]  lg:text-left sm300:text-center sm500:text-left  font-light  lg:mt-6 lg:mb-3 sm300:mt-2 sm500:mt-4 font-Encode ">
             Environmentally friendly disposable packages use sustainable
             materials, biodegradability, and reduced waste to minimize
             environmental impact. They promote eco-conscious consumer choices
@@ -30,11 +30,11 @@ export default function LandingSection() {
               <h1 className="lg:text-[19px] sm300:text-[13px] sm500:text-[20px] text-left  font-light ">Countries</h1>
             </div>
             <div className="w-[25%] h-full flex flex-col items-start justify-center ">
-              <h1 className="lg:text-[35px] sm300:text-[9] sm500:text-[25px]   text-left font-bold">10K+</h1>
+              <h1 className="lg:text-[35px] sm300:text-[9] sm500:text-[25px]   text-left font-bold ">10K+</h1>
               <h1 className="lg:text-[19px] sm300:text-[13px] sm500:text-[20px] text-left font-light ">Clients</h1>
             </div>{" "}
             <div className="w-[25%] h-full flex flex-col items-start justify-center ">
-              <h1 className="lg:text-[35px] sm300:text-[18px] sm500:text-[25px]   text-left font-bold">1000+</h1>
+              <h1 className="lg:text-[35px] sm300:text-[18px] sm500:text-[25px]   text-left font-bold ">1000+</h1>
               <h1 className="lg:text-[19px] sm300:text-[13px] sm500:text-[20px] text-left font-light ">Products</h1>
             </div>
           </div>
