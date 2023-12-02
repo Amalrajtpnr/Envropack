@@ -25,21 +25,21 @@ export default function Footer() {
           <div className="w-full h-[25%] flex flex-row items-center justify-center  ">
             <IoLocationOutline size={20} color="#004E2B" />
 
-            <h1 className={`${styles.head} lg:text-[15px] sm300:text-[13px] sm500:text-[18px] font-medium ml-2 text-[#004E2B]`}>
+            <h1 className={`${styles.sub} lg:text-[15px] sm300:text-[13px] sm500:text-[18px] font-medium ml-2 text-[#004E2B]`}>
               Mussafah 39 , Abudhabi, UAE
             </h1>
           </div>
           <div className="w-full h-[25%] flex flex-row items-center justify-center  ">
             <FiMail size={20} color="#004E2B" />
 
-            <h1 className={`${styles.head} lg:text-[15px] sm300:text-[13px] sm500:text-[18px] font-medium ml-2 text-[#004E2B]`}>
+            <h1 className={`${styles.sub} lg:text-[15px] sm300:text-[13px] sm500:text-[18px] font-medium ml-2 text-[#004E2B]`}>
               envropack@gmail.com
             </h1>
           </div>
           <div className="w-full h-[25%] flex flex-row items-center justify-center  ">
             <HiOutlinePhone size={20} color="#004E2B" />
 
-            <h1 className={`${styles.head} lg:text-[15px] sm300:text-[13px] sm500:text-[18px] font-medium ml-2 text-[#004E2B]`}>
+            <h1 className={`${styles.sub} lg:text-[15px] sm300:text-[13px] sm500:text-[18px] font-medium ml-2 text-[#004E2B]`}>
               +971545994729
             </h1>
           </div>
