@@ -1,9 +1,109 @@
-.skewed {
-  transform: skew(20deg, 0deg);
-  background-color: pink;
-  border-radius: 10px;
-}
+@media (max-height: 400px) {
+  @media (min-width: 600px) {
+    .main {
+      min-height: auto;
+      flex: content;
+      flex-direction: column;
+      justify-content: center;
+    }
 
-.locationicon {
-  color: #004E2B;
+    .navBar {
+      height: 25vh;
+
+      .logo {
+        width: 7%;
+      }
+
+      .title {
+        font-size: 20px;
+      }
+
+      .title1 {
+        font-size: 8px;
+      }
+    }
+
+    .landing {
+      height: 100vh;
+      /* margin-top: 101px; */
+
+      .head {
+        font-size: 15px;
+      }
+
+      .sub {
+        font-size: 10px;
+      }
+    }
+
+    .about {
+      height: 100vh;
+
+      .head {
+        font-size: 15px;
+      }
+
+      .sub {
+        font-size: 10px;
+      }
+    }
+
+    .thirdSection {
+      height: 100vh;
+
+      .head1 {
+        font-size: 15px;
+        margin-top: 25px;
+      }
+
+      .head {
+        font-size: 15px;
+      }
+
+      .sub {
+        font-size: 10px;
+      }
+
+      .section{
+        margin-top: 55px;
+      }
+    }
+
+    .quality {
+      margin-top: 0;
+
+      .head {
+        font-size: 15px;
+      }
+
+      .sub {
+        font-size: 10px;
+        line-height: 2;
+      }
+
+      .image{
+        width: 45%;
+      }
+
+      .commitmentImage{
+        margin-top: 14px;
+        font-size: 10px;
+        line-height: 2;
+        width: 45%;
+
+      }
+
+      .contacts {
+        height: 100vh;
+  
+        .heads {
+          font-size: 15px;
+        }
+  
+        .sub {
+          font-size: 10px;
+        }
+      }
+    }
+  }
 }

@@ -3,6 +3,7 @@ import Service from "../components/Service";
 import emailjs from "@emailjs/browser";
 import { ImSpinner4 } from "react-icons/im";
 import { emailRegex } from "../constants/constants";
+import styles from "../styles/Home.module.css"
 
 export default function ContactSection() {
   const [loading, setloading] = useState(false);
@@ -93,12 +94,12 @@ export default function ContactSection() {
   };
 
   return (
-    <div className="w-full lg:h-[110vh] sm300:h-[210vh] sm500:h-[40vh]   flex flex-col items-center lg:justify-between sm500:justify-around sm300:justify-between lg:mt-0 sm300:mt-10 sm500:mt-10 font-Encode">
+    <div className={`${styles.contacts} w-full lg:h-[110vh] sm300:h-[210vh] sm500:h-[40vh]   flex flex-col items-center lg:justify-between sm500:justify-around sm300:justify-between lg:mt-4 sm300:mt-10 sm500:mt-10 font-Encode`}>
       <div
         id="services"
         className="w-[88%] lg:h-[45%] sm500:h-[55%] sm300:min-h-[50%] flex flex-col lg:items-start sm300:items-center sm500:items-start justify-between "
       >
-        <h1 className="lg:text-[30px] sm300:text-[20px] sm500:text-[25px] text-[#004E2B] text-left  font-bold">
+        <h1 className={`${styles.heads} lg:text-[30px] sm300:text-[20px] sm500:text-[25px] text-[#004E2B] text-left  font-bold`}>
           We’re best in...
         </h1>
         <Service />

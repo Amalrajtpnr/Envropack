@@ -55,7 +55,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen h-auto w-full  flex flex-col items-center justify-start ">
+    <div className={`min-h-screen h-auto w-full  flex flex-col items-center justify-start ${styles.main}`}>
       <Seo
         title="Home"
         description="Environmentally friendly disposable packages use sustainable

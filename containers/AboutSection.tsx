@@ -1,18 +1,19 @@
 import React from "react";
 import InclinedImage from "../components/InclinedImage";
+import styles from "../styles/Home.module.css"
 
 export default function AboutSection() {
   return (
     <div
       id="about"
-      className="w-full lg:h-[100vh] sm300:h-[150vh] sm500:h-[100vh] sm550:h-[30vh] flex flex-col items-center justify-start sm300:p-0 lg:p-0 sm500:p-6 sm500:box-border font-Encode lg:mt-5"
+      className={`w-full lg:h-[100vh] sm300:h-[150vh] sm500:h-[100vh] sm550:h-[30vh] flex flex-col items-center justify-start sm300:p-0 lg:p-0 sm500:p-6 sm500:box-border font-Encode lg:mt-5 ${styles.about}`}
     >
       <div className="lg:w-full sm500:w-[93%] sm300:w-full lg:h-[50%] sm300:h-[50%] sm500:h-full  flex lg:flex-row sm300:flex-col sm500:flex-row items-center sm300:justify-start lg:justify-center ">
         <div className="lg:w-[48%]  sm300:w-[95%] lg:h-full  sm500:h-full sm300:h-[50%] flex flex-col lg:items-start sm300:items-center sm500:items-start justify-start   sm300:mt-4 lg:mt-0 lg:mr-8">
-          <h1 className="lg:text-[30px] sm300:text-[20px] sm500:text-[25px] lg:text-left sm500:text-left  sm300:text-center  text-[#004E2B] font-Encode font-bold">
+          <h1 className={`${styles.head} lg:text-[30px] sm300:text-[20px] sm500:text-[25px] lg:text-left sm500:text-left  sm300:text-center  text-[#004E2B] font-Encode font-bold`}>
             What is ENVROPACK
           </h1>
-          <h1 className="lg:text-[20px] sm300:text-[13px] lg:text-left sm500:text-left  text-[#004E2B] sm500:text-[15px] sm300:text-center sm300:leading-relaxed lg:tracking-widest text-left font-Encode font-light lg:mt-4 sm300:mt-2">
+          <h1 className={`${styles.sub} lg:text-[20px] sm300:text-[13px] lg:text-left sm500:text-left  text-[#004E2B] sm500:text-[15px] sm300:text-center sm300:leading-relaxed lg:tracking-widest text-left font-Encode font-light lg:mt-4 sm300:mt-2`}>
             Envropack is a leading provider of premium eco-friendly and
             biodegradable packaging solutions. With a strong commitment to
             quality, safety, and sustainability, we have been serving the food
@@ -27,13 +28,13 @@ export default function AboutSection() {
       <div className="lg:w-full sm500:w-[93%] sm300:w-full h-[50%] flex flex-col   items-center justify-center sm300:mt-8  sm500:mt-4 lg:mt-0   ">
         <div className="lg:w-[88%] sm300:w-[88%] sm500:w-full h-full flex lg:flex-row  sm300:flex-col sm500:flex-row items-start justify-between ">
           <div className="lg:w-[45%] sm300:w-[100%]  sm500:w-[50%] lg:h-[100%] sm500:h-full sm300:h-[10%] flex flex-col lg:items-start sm500:items-start sm300:items-center justify-between  ">
-            <h1 className="lg:text-[30px] sm300:text-[20px] sm500:text-[25px] text-[#004E2B] text-left font-bold font-Encode ">
+            <h1 className={`${styles.head} lg:text-[30px] sm300:text-[20px] sm500:text-[25px] text-[#004E2B] text-left font-bold font-Encode `}>
               What we’re trying to solve
             </h1>
             <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/cup.jpg?alt=media&token=d5fec22d-1de0-48fa-bcb0-4cad0a4c6a9d&_gl=1*2qay0v*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5OTAyODY5Ni41LjEuMTY5OTAyODc4My42MC4wLjA." alt="" className="lg:w-[100%] sm300:w-[100%] sm500:w-[95%] lg:h-[80%] sm300:h-[80%] sm500:h-[80%] lg:flex sm300:hidden sm500:flex" />
           </div>{" "}
           <div className="lg:w-[50%] lg:h-full  sm300:h-full sm500:w-[50%] flex flex-col items-start justify-center sm500:mt-3 sm300:mt-0 lg:-mt-7  ">
-            <h1 className="lg:text-[20px] sm300:text-[13px] sm500:text-[15px] text-[#004E2B] lg:text-left  sm300:text-center sm500:text-left sm300:leading-relaxed  lg:tracking-widest font-light font-Encode sm300:mb-3 lg:mb-0">
+            <h1 className={`${styles.sub} lg:text-[20px] sm300:text-[13px] sm500:text-[15px] text-[#004E2B] lg:text-left  sm300:text-center sm500:text-left sm300:leading-relaxed  lg:tracking-widest font-light font-Encode sm300:mb-3 lg:mb-0`}>
               Our mission is to become the number one provider complete
               Disposable ,food packaging solutions in quality, hygienic and safe
               products which offers customer Delight. Our mission is to undergo

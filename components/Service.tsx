@@ -10,7 +10,7 @@ export default function Service() {
           Eco-friendly disposable packages
         </h1>
       </div>
-      <div className="lg:w-[20%] sm300:w-[65%] sm500:w-[20%]  sm500:h-[100%] lg:h-full flex flex-col items-center justify-start lg:mt-0 sm300:mt-4 sm500:mt-0 sm500:mt-0">
+      <div className="lg:w-[20%] sm300:w-[65%] sm500:w-[20%]  sm500:h-[100%] lg:h-full flex flex-col items-center justify-start lg:mt-0 sm300:mt-4  sm500:mt-0">
         <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/detergent1.jpg?alt=media&token=dcf1b17e-bf38-4f30-b140-46ee34f23a44&_gl=1*3mgg4m*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODk5OTAxMi40LjEuMTY5ODk5OTAyMC41Mi4wLjA." alt="" />
         <h1 className="lg:text-[20px]  sm300:text-[13px] sm500:text-[18px] text-[#004E2B] text-center font-normal leading-6 lg:mt-6 sm300:mt-2 ">
           Branded cleaning Chemicals
