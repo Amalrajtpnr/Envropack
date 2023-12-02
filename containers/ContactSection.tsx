@@ -94,25 +94,25 @@ export default function ContactSection() {
   };
 
   return (
-    <div className={`${styles.contacts} w-full lg:h-[110vh] sm300:h-[210vh] sm500:h-[40vh]   flex flex-col items-center lg:justify-between sm500:justify-around sm300:justify-between lg:mt-4 sm300:mt-10 sm500:mt-10 font-Encode`}>
+    <div className={`${styles.contact} w-full lg:h-[110vh] sm300:h-[210vh] sm500:h-[40vh]   flex flex-col items-center lg:justify-between sm500:justify-around sm300:justify-between lg:mt-4 sm300:mt-10 sm500:mt-10 font-Encode`}>
       <div
         id="services"
-        className="w-[88%] lg:h-[45%] sm500:h-[55%] sm300:min-h-[50%] flex flex-col lg:items-start sm300:items-center sm500:items-start justify-between "
+        className={`${styles.section} w-[88%] lg:h-[45%] sm500:h-[55%] sm300:min-h-[50%] flex flex-col lg:items-start sm300:items-center sm500:items-start justify-between `}
       >
-        <h1 className={`${styles.heads} lg:text-[30px] sm300:text-[20px] sm500:text-[25px] text-[#004E2B] text-left  font-bold`}>
+        <h1 className={`${styles.head} lg:text-[30px] sm300:text-[20px] sm500:text-[25px] text-[#004E2B] text-left  font-bold`}>
           We’re best in...
         </h1>
         <Service />
       </div>
       <div
         id="footer"
-        className="lg:w-[100%]  sm300:w-full sm500:w-[88%] lg:h-[45%] sm300:min-h-[20%] sm500:h-[60%]   bg-white flex flex-row items-start justify-center sm500:mb-10   sm300:mb-10 lg:mb-0 lg:mt-0 sm500:mt-0 sm300:mt-0  "
+        className={`${styles.section} lg:w-[100%]  sm300:w-full sm500:w-[88%] lg:h-[45%] sm300:min-h-[20%] sm500:h-[60%]   bg-white flex flex-row items-start justify-center sm500:mb-10   sm300:mb-10 lg:mb-0 lg:mt-0 sm500:mt-0 sm300:mt-0  `}
       >
         <div className="lg:w-[45%]   sm500:w-[55%] sm300:w-[90%] lg:h-full sm300:h-full sm500:h-[80%]  flex flex-col lg:items-start sm300:items-center sm500:items-start justify-start ">
-          <h1 className="lg:text-[30px] sm300:text-[20px] sm500:text-[25px] text-[#004E2B] text-left font-bold">
+          <h1 className={`${styles.head} lg:text-[30px] sm300:text-[20px] sm500:text-[25px] text-[#004E2B] text-left font-bold`}>
             Contact US
           </h1>
-          <h1 className="lg:text-[20px] sm300:text-[13px] sm500:text-[20px] text-[#004E2B]  text-left font-normal lg:mt-2 sm300:mt-0">
+          <h1 className={`${styles.sub} lg:text-[20px] sm300:text-[13px] sm500:text-[20px] text-[#004E2B]  text-left font-normal lg:mt-2 sm300:mt-0`}>
             Tell us how we can help you
           </h1>
           <form
@@ -136,10 +136,10 @@ export default function ContactSection() {
                   setError({ ...error, email: "" });
                 }
               }}
-              className="w-full border bg-[#F4F4F4] lg:h-[20%] sm300:h-[20%] sm500:h-[20%] lg:text-[16px] sm300:text-[13px] sm500:text-[18px] focus:outline-none p-5 box-border rounded-xl "
+              className={`${styles.sub} w-full border bg-[#F4F4F4] lg:h-[20%] sm300:h-[20%] sm500:h-[20%] lg:text-[16px] sm300:text-[13px] sm500:text-[18px] focus:outline-none p-5 box-border rounded-xl `}
             />
             {error.email && (
-              <span className="text-[11px] font-medium text-red-500 lg:text-[16px] sm300:text-[13px] sm500:text-[15px]">
+              <span className={`${styles.sub} text-[11px] font-medium text-red-500 lg:text-[16px] sm300:text-[13px] sm500:text-[15px]`}>
                 {error.email}
               </span>
             )}
@@ -159,10 +159,10 @@ export default function ContactSection() {
               }}
               id=""
               rows={5}
-              className="w-full border lg:h-[40%] sm300:h-[35%] sm500:h-[40%] bg-[#F4F4F4] lg:text-[16px] sm300:text-[13px] sm500:text-[18px] rounded-xl focus:outline-none p-5 box-border"
+              className={`${styles.sub} w-full border lg:h-[40%] sm300:h-[35%] sm500:h-[40%] bg-[#F4F4F4] lg:text-[16px] sm300:text-[13px] sm500:text-[18px] rounded-xl focus:outline-none p-5 box-border`}
             ></textarea>
             {error.message && (
-              <span className="text-[11px] font-medium text-red-500 lg:text-[16px] sm300:text-[13px] sm500:text-[15px]">
+              <span className={`${styles.sub} text-[11px] font-medium text-red-500 lg:text-[16px] sm300:text-[13px] sm500:text-[15px]`}>
                 {error.message}
               </span>
             )}
@@ -174,7 +174,7 @@ export default function ContactSection() {
             ) : (
               <button
                 onClick={form}
-                className="lg:w-[25%] sm300:w-[35%] sm500:w-[25%] lg:h-[15%] sm300:h-[18%] sm500:h-[15%] lg:text-[15px] sm300:text-[13px] sm500:text-[20px] bg-[#0A4364] text-white font-semibold rounded-xl focus:outline-none"
+                className={`${styles.submit} lg:w-[25%] sm300:w-[35%] sm500:w-[25%] lg:h-[15%] sm300:h-[18%] sm500:h-[15%] lg:text-[15px] sm300:text-[13px] sm500:text-[20px] bg-[#0A4364] text-white font-semibold rounded-xl focus:outline-none`}
               >
                 Submit
               </button>
@@ -185,7 +185,7 @@ export default function ContactSection() {
           <img
             src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/contactus.jpg?alt=media&token=ceaf38ce-36dc-4be0-8f73-95d725b7b4e6&_gl=1*5dmxka*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODkzNTk1Ny4zLjEuMTY5ODkzNTk1OC41OS4wLjA."
             alt=""
-            className="w-[100%] lg:h-[78%] sm500:h-[65%]"
+            className={`${styles.image} w-[100%] lg:h-[78%] sm500:h-[65%]`}
           />
         </div>{" "}
       </div>
