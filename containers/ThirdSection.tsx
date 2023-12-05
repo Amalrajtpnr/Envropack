@@ -16,7 +16,7 @@ export default function ThirdSection() {
         <Quality />
       </div>
       <div
-        className={` ${styles.section} w-[88%] h-[55%]  flex lg:flex-row sm300:flex-col sm500:flex-row lg:items-start sm500:items-start sm300:items-center justify-center sm300:mt-8  lg:mt-10`}
+        className={` ${styles.section} w-[88%] h-[55%]  flex lg:flex-row sm300:flex-col sm500:flex-row lg:items-start sm500:items-start sm300:items-center justify-center sm300:mt-8  lg:mt-0`}
       >
         <div className="lg:w-[50%]  sm500:w-[50%] sm300:w-[100%] h-[75%]  flex flex-col lg:items-start sm500:items-start sm300:items-center sm:justify-between lg:justify-start  ">
           <h1
