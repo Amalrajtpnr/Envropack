@@ -74,12 +74,13 @@
       }
 
       .section {
-        margin-top: 55px;
+        margin-top: 85px;
       }
     }
 
     .quality {
       margin-top: 0;
+   
 
       .head {
         font-size: 15px;
@@ -91,14 +92,16 @@
       }
 
       .image {
-        width: 45%;
+        min-width: 80px;
+        min-height: 80px;
       }
 
       .commitmentImage {
         margin-top: 14px;
         font-size: 10px;
         line-height: 2;
-        width: 45%;
+        min-width: 80px;
+        min-height: 80px;
       }
     }
 

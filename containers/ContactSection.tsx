@@ -92,7 +92,7 @@ export default function ContactSection() {
 
   return (
     <div
-      className={`${styles.contact} w-full lg:h-[120vh] sm300:h-[210vh] sm500:h-[40vh]   flex flex-col items-center lg:justify-between sm500:justify-around sm300:justify-between lg:mt-4 sm300:mt-10 sm500:mt-10 font-Encode`}
+      className={`${styles.contact} w-full lg:h-[120vh] sm300:h-[200vh] sm500:h-[40vh]   flex flex-col items-center lg:justify-between sm500:justify-around sm300:justify-between lg:mt-10 sm300:mt-10 sm500:mt-10 font-Encode`}
     >
       <div
         id="services"

@@ -8,7 +8,7 @@ export default function Service() {
     >
       <div className="lg:w-[17%] sm300:w-[65%]  sm500:w-[20%] lg:h-full sm500:h-[100%]  flex flex-col items-center justify-start   ">
         <img
-          className="rounded-[15px] lg:h-[70%] min-h-[220px] min-w-[220px] lg:min-h-[230px] lg:min-w-[240px]"
+          className="rounded-[15px] lg:h-[60%] min-h-[80px] min-w-[80px] lg:min-h-[230px] lg:min-w-[240px]"
           src="/Rectangle15.jpg"
           alt=""
         />
@@ -19,9 +19,9 @@ export default function Service() {
           Eco-friendly disposable packages
         </h1>
       </div>
-      <div className="lg:w-[20%] sm300:w-[65%] sm500:w-[20%]  sm500:h-[100%] lg:h-full flex flex-col items-center justify-start lg:mt-0 sm300:mt-4  sm500:mt-0">
+      <div className="lg:w-[20%] sm300:w-[65%] sm500:w-[20%]  sm500:h-[100%] lg:h-full flex flex-col items-center justify-start lg:mt-0 sm300:mt-8  sm500:mt-0">
         <img
-          className="rounded-[15px] lg:h-[70%] min-h-[220px] min-w-[220px] lg:min-h-[230px] lg:min-w-[240px]"
+          className="rounded-[15px] lg:h-[60%] min-h-[80px] min-w-[80px] lg:min-h-[230px] lg:min-w-[240px]"
           src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/detergent1.jpg?alt=media&token=dcf1b17e-bf38-4f30-b140-46ee34f23a44&_gl=1*3mgg4m*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODk5OTAxMi40LjEuMTY5ODk5OTAyMC41Mi4wLjA."
           alt=""
         />
@@ -31,9 +31,9 @@ export default function Service() {
           Branded cleaning Chemicals
         </h1>
       </div>{" "}
-      <div className="lg:w-[20%] sm300:w-[65%] sm500:w-[20%] sm500:h-[100%] lg:h-full flex flex-col items-center justify-start lg:mt-0 sm300:mt-4 sm500:mt-0 ">
+      <div className="lg:w-[20%] sm300:w-[65%] sm500:w-[20%] sm500:h-[100%] lg:h-full flex flex-col items-center justify-start lg:mt-0 sm300:mt-8 sm500:mt-0 ">
         <img
-          className="rounded-[15px] lg:h-[70%] min-h-[220px] min-w-[220px] lg:min-h-[230px] lg:min-w-[240px]"
+          className="rounded-[15px] lg:h-[60%] min-h-[80px] min-w-[80px] lg:min-h-[230px] lg:min-w-[240px]"
           src="./cleaning.png"
           alt=""
         />
@@ -44,9 +44,9 @@ export default function Service() {
           Best Cleaning Materials
         </h1>
       </div>{" "}
-      <div className="lg:w-[20%] sm300:w-[65%] sm500:w-[20%]  sm500:h-[100%] lg:h-full flex flex-col items-center justify-start lg:mt-0 sm300:mt-4 sm500:mt-0">
+      <div className="lg:w-[20%] sm300:w-[65%] sm500:w-[20%]  sm500:h-[100%] lg:h-full flex flex-col items-center justify-start lg:mt-0 sm300:mt-8 sm500:mt-0">
         <img
-          className="rounded-[15px] lg:h-[70%] min-h-[220px] min-w-[220px] lg:min-h-[230px] lg:min-w-[240px]"
+          className="rounded-[15px] lg:h-[60%] min-h-[80px] min-w-[80px] lg:min-h-[230px] lg:min-w-[240px]"
           src="./Rectangle13.jpg"
           alt=""
         />

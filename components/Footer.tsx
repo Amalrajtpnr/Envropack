@@ -33,7 +33,7 @@ export default function Footer() {
             <FiMail size={20} color="#004E2B" />
 
             <h1 className={`${styles.sub} lg:text-[15px] sm300:text-[13px] sm500:text-[18px] font-medium ml-2 text-[#004E2B]`}>
-              envropack@gmail.com
+              info@envropack.com
             </h1>
           </div>
           <div className="w-full h-[25%] flex flex-row items-center justify-center  ">
