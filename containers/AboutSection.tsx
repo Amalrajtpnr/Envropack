@@ -16,7 +16,7 @@ export default function AboutSection() {
             What is ENVROPACK
           </h1>
           <h1
-            className={`${styles.sub} lg:text-[1.3vw] sm300:text-[13px] lg:text-left sm500:text-left  text-[#004E2B] sm500:text-[15px] sm300:text-center sm300:leading-relaxed lg:tracking-widest text-left font-Encode font-light lg:mt-4 sm300:mt-2`}
+            className={`${styles.sub} lg:text-[1.2vw] sm300:text-[13px] lg:text-left sm500:text-left  text-[#004E2B] sm500:text-[15px] sm300:text-center sm300:leading-relaxed lg:tracking-widest text-left font-Encode font-light lg:mt-4 sm300:mt-2`}
           >
             Envropack is a leading provider of premium eco-friendly and
             biodegradable packaging solutions. With a strong commitment to
@@ -45,7 +45,7 @@ export default function AboutSection() {
           </div>{" "}
           <div className="lg:w-[50%] lg:h-full  sm300:h-full sm500:w-[50%] flex flex-col items-start justify-center lg:justify-start pt-0 lg:pt-[7.5vh] sm500:mt-3 sm300:mt-0  ">
             <h1
-              className={`${styles.sub} lg:text-[1.3vw] sm300:text-[13px] sm500:text-[15px] text-[#004E2B] lg:text-left  sm300:text-center sm500:text-left sm300:leading-relaxed  lg:tracking-widest font-light font-Encode sm300:mb-3 lg:mb-0`}
+              className={`${styles.sub} lg:text-[1.2vw] sm300:text-[13px] sm500:text-[15px] text-[#004E2B] lg:text-left  sm300:text-center sm500:text-left sm300:leading-relaxed  lg:tracking-widest font-light font-Encode sm300:mb-3 lg:mb-0`}
             >
               Our mission is to become the number one provider complete
               Disposable ,food packaging solutions in quality, hygienic and safe

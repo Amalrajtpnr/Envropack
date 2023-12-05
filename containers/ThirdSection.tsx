@@ -25,7 +25,7 @@ export default function ThirdSection() {
             Envropack care about the nature
           </h1>
           <h1
-            className={`${styles.sub} lg:text-[1.3vw]  sm300:text-[13px] sm500:text-[15px] text-[#004E2B] lg:text-left sm500:text-left sm300:text-center font-light sm300:mt-2 lg:mt-4 lg:tracking-wider`}
+            className={`${styles.sub} lg:text-[1.2vw]  sm300:text-[13px] sm500:text-[15px] text-[#004E2B] lg:text-left sm500:text-left sm300:text-center font-light sm300:mt-2 lg:mt-4 lg:tracking-wider`}
           >
             Environmentally friendly disposable packages represent a significant
             step toward a more sustainable future. They are designed with
