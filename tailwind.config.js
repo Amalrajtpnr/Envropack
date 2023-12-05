@@ -11,11 +11,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Encode: ['Encode Sans Expanded', "sans-serif"],
-        inter:['Inter', "sans-serif"]
-       
+        Encode: ["Encode Sans Expanded", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
-     
+
       colors: {
         blur: "rgba(255,255,255,0.1)",
       },

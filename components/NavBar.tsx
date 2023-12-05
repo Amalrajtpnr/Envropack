@@ -1,20 +1,24 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { MdOutlineClose } from "react-icons/md";
-import styles from "../styles/Home.module.css"
+import styles from "../styles/Home.module.css";
 
 export default function NavBar() {
   const [popUp, setPopUp] = useState(false);
 
   return (
-    <div className={`${styles.navBar} w-full lg:h-[20%] sm500:h-[20%] sm300:h-[30%] bg-transparent flex  flex-row items-center lg:justify-between sm300:justify-start  lg:absolute sm500:absolute font-Encode  `}>
-      <div className="lg:w-[40%]  sm300:w-[90%] h-full flex flex-row items-center lg:justify-start   lg:ml-[115px] sm500:ml-8 sm300:ml-3 ">
+    <div
+      className={`${styles.navBar} w-full lg:h-[20%] sm500:h-[20%] sm300:h-[30%] bg-transparent flex  flex-row items-center lg:justify-between sm300:justify-start  lg:absolute sm500:absolute font-Encode  `}
+    >
+      <div className="lg:w-[40%]  sm300:w-[90%] h-full flex flex-row items-center lg:justify-start   lg:ml-[5.5vw] sm500:ml-8 sm300:ml-3 ">
         <img
           src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/logo1.svg?alt=media&token=a5ec18b6-e581-4026-b253-8a3b1b7c813a&_gl=1*1tq8pep*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5OTAyODY5Ni41LjEuMTY5OTAyODcyNC4zMi4wLjA."
           alt=""
           className={`${styles.logo} lg:w-[12%] sm300:w-[15%] sm500:w-[12%]  h-full`}
         />
-        <h1 className={`${styles.title} lg:text-[35px] sm300:text-[22px] sm500:text-[40px] font-bold text-[#004E2B]  lg:ml-4 sm300:ml-2 sm500:ml-6`}>
+        <h1
+          className={`${styles.title} lg:text-[35px] sm300:text-[22px] sm500:text-[40px] font-bold text-[#004E2B]  lg:ml-4 sm300:ml-2 sm500:ml-6`}
+        >
           ENVROPACK
         </h1>
       </div>
@@ -41,12 +45,14 @@ export default function NavBar() {
             About Us
           </a>
           <a
-            className={`text-white sm500:text-[13px] sm300:text-[16px] lg:text-[14px] font-semibold cursor-pointer" ${styles.title1}`}            href="#services"
+            className={`text-white sm500:text-[13px] sm300:text-[16px] lg:text-[14px] font-semibold cursor-pointer" ${styles.title1}`}
+            href="#services"
           >
             Services
           </a>
           <a
-            className={`text-white sm500:text-[13px] sm300:text-[16px] lg:text-[14px] font-semibold cursor-pointer" ${styles.title1}`}            href="#footer"
+            className={`text-white sm500:text-[13px] sm300:text-[16px] lg:text-[14px] font-semibold cursor-pointer" ${styles.title1}`}
+            href="#footer"
           >
             Contact Us{" "}
           </a>
