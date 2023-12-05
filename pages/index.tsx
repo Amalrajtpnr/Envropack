@@ -35,8 +35,8 @@ export default function Home() {
   const Logo = () => {
     return (
       <svg
-        width="200"
-        height="200"
+        width="100"
+        height="100"
         viewBox="0 0 1145 1161"
         fill="none"
         className="animate-pulse scale-[0.5] lg:scale-[1.3]"
