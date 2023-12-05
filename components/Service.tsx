@@ -17,9 +17,9 @@ export default function Service() {
           Branded cleaning Chemicals
         </h1>
       </div>{" "}
-      <div className="lg:w-[20%] sm300:w-[65%] sm500:w-[20%]  sm500:h-[100%] lg:h-full flex flex-col items-center justify-start lg:mt-0 sm300:mt-4 sm500:mt-0 ">
-       <img src="./cleaning.jpg" alt="" />
-        {/* <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/brrom1.jpg?alt=media&token=7a8f855e-9cd8-45ef-bd84-b2258c473319&_gl=1*j2h28g*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODkzMTM2Mi4yLjEuMTY5ODkzMjE1Ny42MC4wLjA." alt="" /> */}
+      <div className="lg:w-[20%] sm300:w-[65%] sm500:w-[20%] sm500:h-[100%] lg:h-full flex flex-col items-center justify-start lg:mt-0 sm300:mt-4 sm500:mt-0 ">
+       <img src="./cleaning.jpeg"  className="border w-[85%] rounded-[20px]" alt="" />
+        {/* <img src="https://firebasestorage.googleapi.com/v0/b/envropack-14c71.appspot.com/o/brrom1.jpg?alt=media&token=7a8f855e-9cd8-45ef-bd84-b2258c473319&_gl=1*j2h28g*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODkzMTM2Mi4yLjEuMTY5ODkzMjE1Ny42MC4wLjA." alt="" /> */}
         <h1 className={`${styles.sub} lg:text-[20px]  sm300:text-[13px] sm500:text-[18px] text-[#004E2B] text-center font-normal leading-6 lg:mt-6 sm300:mt-2 `}>
           Best Cleaning Materials
         </h1>

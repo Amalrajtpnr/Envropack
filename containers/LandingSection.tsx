@@ -9,7 +9,7 @@ export default function LandingSection() {
       <NavBar/>
       <div className={`${styles.section} lg:w-[60%] sm300:w-full sm500:w-[55%] lg:h-full sm500:h-full sm300:min-h-[50%] flex flex-col items-center justify-center  `}>
         <div className="lg:w-[80%] sm500:w-[90%] sm300:w-[85%]  lg:h-full sm300:h-full flex flex-col lg:items-start sm300:items-center sm500:items-start lg:justify-end sm300:justify-center sm500:justify-end   ">
-          <h1 className={`${styles.head } lg:text-[45px] sm300:text-[18px] sm500:text-[25px] text-[#062701]  lg:text-left sm300:text-center sm500:text-left font-bold font-Encode lg:tracking-wider`}>
+          <h1 className={`${styles.head } ${styles.title2 }  ${styles.title3 } lg1200:text-[10px] lg:text-[45px] sm300:text-[18px] sm500:text-[25px] text-[#062701]  lg:text-left sm300:text-center sm500:text-left font-bold font-Encode lg:tracking-wider`}>
             We take immense pride in being your trusted partner for all your
             packaging needs
           </h1>

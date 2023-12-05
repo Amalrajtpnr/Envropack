@@ -146,6 +146,8 @@ export default function ContactSection() {
             <textarea
               name="Message"
               placeholder="Message"
+              style={{resize:"none"}}
+
               onChange={(e) => {
                 setMessage(e.target.value);
                 if (e.target.value.trim().length == 0) {

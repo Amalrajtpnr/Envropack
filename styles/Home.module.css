@@ -162,3 +162,39 @@
     }
   }
 }
+
+
+@media (max-height: 1024px) {
+  @media (min-width: 768px) {
+.title2{
+  font-size: 30px;
+
+}
+
+.button1{
+  width: 50%;
+}
+
+.ba{
+  margin-left: 0;
+  margin-right: 50px;
+}
+  }}
+
+  @media (max-height: 1920px) {
+    @media (min-width: 1080px) {
+  .title3{
+    font-size: 50px;
+  }
+
+  
+
+  .button{
+    width: 20%;
+  }
+
+  .da{
+    margin-left: 250px;
+    margin-right: 150px;
+  }
+    }}
